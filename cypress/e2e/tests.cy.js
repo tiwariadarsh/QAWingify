@@ -4,7 +4,7 @@ import "../support/commands.js";
 let amounts = [];
 
 describe("Test case", () => {
-  it("(1) Login test by adding username and password", () => {
+  it("(1) Login test by adding username and password And Amount sorted or not checking", () => {
     cy.visit("https://sakshingp.github.io/assignment/login.html");
     cy.get("#username").type("Adarsh");
     cy.get("#password").type("1234");
