@@ -25,6 +25,7 @@ describe("Test case", () => {
             .querySelectorAll("td")[4]
             .querySelector("span").innerText;
           cy.convertInNumber(k).then((val) => amounts.push(val));
+          //convertInNumber is a function in commands.js
         }
       })
       .then(() => {
