@@ -1,0 +1,3 @@
+# QAWingify
+
+Framework: cypress
